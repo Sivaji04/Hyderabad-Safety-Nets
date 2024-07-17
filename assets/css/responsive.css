@@ -962,6 +962,8 @@
     .full-width-header .rs-header.style2 .row-table .header-logo .logo-area,
     .full-width-header .rs-header.style3 .box-layout .row-table .header-logo .logo-area{
         top: 14px;
+        font-size: large;
+        font-weight: 600;
     }
     .rs-breadcrumbs .breadcrumbs-inner .page-title {
         font-size: 35px;
