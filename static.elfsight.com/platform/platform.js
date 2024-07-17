@@ -1,0 +1,1 @@
+No Content: https://highcaresafetynets.com/static.elfsight.com/platform/platform.js
