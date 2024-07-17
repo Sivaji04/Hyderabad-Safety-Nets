@@ -9037,3 +9037,9 @@ body .search-modal .close:hover {
     opacity: 0;
   }
 }
+
+
+.logo-area a{
+  font-size: larger;
+  font-weight: 700;
+}
