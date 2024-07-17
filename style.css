@@ -50,6 +50,12 @@
 /* -----------------------------------
     01. General CSS
 -------------------------------------*/
+
+:root {
+  --bg-color : "#2d8feb";
+}
+
+
 html,
 body {
   font-size: 15px;
@@ -204,7 +210,7 @@ h6 {
   align-items: center;
 }
 a {
-  color: #03c323;
+  color: #2d8feb;
   transition: all 0.3s ease;
   text-decoration: none !important;
   outline: none !important;
@@ -213,7 +219,7 @@ a:active,
 a:hover {
   text-decoration: none;
   outline: 0 none;
-  color: #03c323;
+  color: #2d8feb;
 }
 ul {
   list-style: outside none none;
@@ -224,12 +230,12 @@ ul {
   clear: both;
 }
 ::-moz-selection {
-  background: #03c323;
+  background: #2d8feb;
   text-shadow: none;
   color: #ffffff;
 }
 ::selection {
-  background: #03c323;
+  background: #2d8feb;
   text-shadow: none;
   color: #ffffff;
 }
@@ -414,7 +420,7 @@ body.nav-expanded .offwrap {
   background: unset !important;
 }
 .rs-menu-toggle {
-  color: #03c323;
+  color: #2d8feb;
   text-align: right;
 }
 button {
@@ -448,7 +454,7 @@ ul.services-list li a:before {
 }
 ul.services-list li a:hover,
 ul.services-list li a.active {
-  background: #03c323;
+  background: #2d8feb;
   color: #ffffff;
 }
 ul.services-list li a:hover:before,
@@ -459,7 +465,7 @@ ul.listing-style li {
   margin-bottom: 7px;
 }
 ul.listing-style li i {
-  color: #03c323;
+  color: #2d8feb;
   font-size: 24px;
   line-height: 31px;
   margin-right: 10px;
@@ -513,7 +519,7 @@ button:focus {
   align-items: center;
   padding: 15px 10px 15px 8px;
   border-radius: 0;
-  background: #03c323;
+  background: #2d8feb;
 }
 .pagination-area .nav-link .page-number {
   padding: 2px 15px 0 20px;
@@ -578,7 +584,7 @@ button:focus {
   right: 4px;
 }
 .pagination-part .active a {
-  color: #03c323;
+  color: #2d8feb;
 }
 .gridFilter button {
   font-size: 17px;
@@ -594,11 +600,11 @@ button:focus {
 }
 .gridFilter button.active {
   color: #FFFFFF;
-  background: #03c323 !important;
+  background: #2d8feb !important;
 }
 .gridFilter button:hover {
   color: #FFFFFF;
-  background: #03c323 !important;
+  background: #2d8feb !important;
 }
 .gridFilter button + button {
   margin-left: 20px;
@@ -641,7 +647,7 @@ blockquote cite:before {
   color: #ff5421;
   padding-bottom: 0px;
   display: inline-block;
-  background: #03c323;
+  background: #2d8feb;
   height: 2px;
   width: 40px;
   font-weight: 400;
@@ -663,13 +669,13 @@ blockquote cite:before {
 .arrow-btn a {
   font-weight: 400;
   font-size: 17px;
-  border-color: #03c323;
+  border-color: #2d8feb;
   border-style: solid;
   border-width: 1px;
   margin: 0px;
   border-radius: 23px;
   padding: 12px 15px;
-  color: #03c323;
+  color: #2d8feb;
 }
 .arrow-btn a span {
   position: absolute;
@@ -680,7 +686,7 @@ blockquote cite:before {
   height: 8px;
   margin: -4px 0 0 -4px;
   border-radius: 50%;
-  background: #03c323;
+  background: #2d8feb;
 }
 .rs-carousel.nav-style1 {
   position: relative;
@@ -698,7 +704,7 @@ blockquote cite:before {
   height: 42px;
   line-height: 42px;
   border-radius: 50%;
-  background: #03c323;
+  background: #2d8feb;
   text-align: center;
   color: #ffffff;
   transition: all 0.5s;
@@ -753,7 +759,7 @@ blockquote cite:before {
 }
 .rs-carousel.nav-style2 .owl-nav .owl-prev:hover i,
 .rs-carousel.nav-style2 .owl-nav .owl-next:hover i {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-carousel.nav-style2 .owl-nav .owl-prev i:before {
   content: "\f134";
@@ -780,13 +786,13 @@ blockquote cite:before {
   border-radius: 0;
   border: none;
   transition: all 0.3s ease;
-  background: #03c323;
+  background: #2d8feb;
   box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.25);
 }
 .rs-carousel .owl-dots .owl-dot:hover,
 .rs-carousel .owl-dots .owl-dot.active {
   width: 40px;
-  background: #03c323;
+  background: #2d8feb;
   opacity: .5;
 }
 /* ------------------------------------
@@ -844,7 +850,7 @@ blockquote cite:before {
   padding: 18px 35px 18px 35px;
   border-radius: 0px 0px 0px 0px;
   color: #fff;
-  background: #03c323;
+  background: #2d8feb;
   overflow: hidden;
   position: relative;
 }
@@ -888,7 +894,7 @@ blockquote cite:before {
   font-size: 14px;
   font-weight: 600;
   padding: 9px 50px 9px 25px;
-  background: #03c323;
+  background: #2d8feb;
   position: relative;
 }
 .readon.consultant.blog:before {
@@ -934,7 +940,7 @@ blockquote cite:before {
   opacity: 0.8;
 }
 .readon.submit {
-  background-color: #03c323;
+  background-color: #2d8feb;
   padding: 18px 35px 18px 35px;
   border: none;
   transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
@@ -972,7 +978,7 @@ blockquote cite:before {
   line-height: normal;
   font-size: 14px;
   font-weight: 500;
-  background: #03c323;
+  background: #2d8feb;
   border: none;
 }
 .readon.price {
@@ -987,16 +993,16 @@ blockquote cite:before {
 .readon.price:hover {
   border-style: solid;
   border-width: 1px 1px 1px 1px;
-  border-color: #03c323;
+  border-color: #2d8feb;
   color: #ffffff;
-  background-color: #03c323;
+  background-color: #2d8feb;
 }
 .readon.price.price2 {
-  background-color: #03c323;
+  background-color: #2d8feb;
   border-style: solid;
   border-width: 1px 1px 1px 1px;
-  border-color: #03c323;
-  background: #03c323;
+  border-color: #2d8feb;
+  background: #2d8feb;
   color: #ffffff;
 }
 .readon.price.price2:hover {
@@ -1013,7 +1019,7 @@ blockquote cite:before {
   font-size: 15px;
   font-weight: 600;
   color: #fff;
-  background-color: #03c323;
+  background-color: #2d8feb;
 }
 .readon.view-more {
   padding: 7px 25px 7px;
@@ -1104,7 +1110,7 @@ blockquote cite:before {
 .blog-button a {
   text-align: center;
   display: inline-block;
-  color: #03c323;
+  color: #2d8feb;
   padding-right: 25px;
   position: relative;
   z-index: 1;
@@ -1128,7 +1134,7 @@ blockquote cite:before {
 .blog-button.services a {
   font-size: 16px;
   font-weight: 600;
-  color: #03c323;
+  color: #2d8feb;
   padding-right: 12px;
 }
 .blog-button.services a:after {
@@ -1140,7 +1146,7 @@ blockquote cite:before {
   right: 0;
   opacity: 1;
   transition: all 0.3s;
-  color: #03c323;
+  color: #2d8feb;
 }
 .blog-button.services a:hover:after {
   right: -2px;
@@ -1156,7 +1162,7 @@ blockquote cite:before {
   border-radius: 3px;
   font-size: 16px;
   font-weight: 500;
-  background: #03c323;
+  background: #2d8feb;
   color: #ffffff;
   border: none;
 }
@@ -1229,7 +1235,7 @@ blockquote cite:before {
   font-weight: 600;
   margin: 0 0 10px;
   display: inline-block;
-  color: #03c323;
+  color: #2d8feb;
   line-height: 28px;
   font-size: 15px;
   text-transform: uppercase;
@@ -1266,7 +1272,7 @@ blockquote cite:before {
   padding-top: 28px;
 }
 .sec-title .title span {
-  color: #03c323;
+  color: #2d8feb;
   font-style: oblique;
 }
 .sec-title .title span.new-text {
@@ -1278,7 +1284,7 @@ blockquote cite:before {
   border: 0;
   width: 65px;
   height: 5px;
-  background: #03c323;
+  background: #2d8feb;
   z-index: 1;
   margin-left: 0;
   left: 0;
@@ -1307,7 +1313,7 @@ blockquote cite:before {
   line-height: 36px;
 }
 .sec-title .title span {
-  color: #03c323;
+  color: #2d8feb;
 }
 .sec-title .title-inner .title-small {
   font-size: 17px;
@@ -1320,7 +1326,7 @@ blockquote cite:before {
   font-size: 36px;
 }
 .sec-title2 .title span {
-  color: #03c323;
+  color: #2d8feb;
   font-style: oblique;
 }
 .sec-title2 .title span.new-next {
@@ -1509,7 +1515,7 @@ blockquote cite:before {
   font-size: 14px;
 }
 .full-width-header .rs-header .topbar-area.style1 .topbar-contact li a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .rs-header .topbar-area.style1 .topbar-contact li:last-child {
   margin: 0;
@@ -1543,7 +1549,7 @@ blockquote cite:before {
   color: #ffffff;
 }
 .full-width-header .rs-header .topbar-area.style1 .toolbar-sl-share ul li a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .rs-header .topbar-area.style1 .toolbar-sl-share ul li:last-child {
   margin: 0;
@@ -1681,7 +1687,7 @@ blockquote cite:before {
   font-family: Poppins;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li.menu-item-has-children > a {
   padding-right: 17px;
@@ -1704,7 +1710,7 @@ blockquote cite:before {
   content: "-";
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li.current-menu-item > a {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.sub-menu {
   background: #ffffff;
@@ -1730,7 +1736,7 @@ blockquote cite:before {
   text-transform: capitalize;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.sub-menu li a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.sub-menu li.menu-item-has-children a:before {
   display: none;
@@ -1743,13 +1749,13 @@ blockquote cite:before {
   right: 100%;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.onepage-menu li.current-menu-item > a {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li a:hover,
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.active a,
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.current-menu-item > a,
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul li.current-menu-item > a:before {
-  color: #03c323 !important;
+  color: #2d8feb !important;
 }
 .full-width-header .rs-header .menu-area.sticky {
   background: #fff;
@@ -1765,16 +1771,16 @@ blockquote cite:before {
   color: #101010;
 }
 .full-width-header .rs-header .menu-area.sticky .main-menu .rs-menu ul.nav-menu > li > a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .rs-header .menu-area.sticky .main-menu .rs-menu ul.nav-menu > li.current-menu-item > a {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .rs-header .menu-area.sticky .expand-btn-inner ul .rsphone a {
   color: #101010;
 }
 .full-width-header .rs-header .menu-area.sticky .expand-btn-inner ul .rsphone a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .rs-header .menu-area.sticky .expand-btn-inner ul .icon-bar .cart-icon i {
   color: #0a0a0a;
@@ -1783,13 +1789,13 @@ blockquote cite:before {
   color: #101010;
 }
 .full-width-header .rs-header .menu-area.sticky .expand-btn-inner ul .search-parent a i:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .rs-header .menu-area.sticky .expand-btn-inner ul .nav-link .nav-expander .bar span {
   background: #101010;
 }
 .full-width-header .rs-header .menu-area.sticky .expand-btn-inner ul .nav-link .nav-expander:hover .bar span {
-  background: #03c323;
+  background: #2d8feb;
 }
 .full-width-header .rs-header .expand-btn-inner {
   display: flex;
@@ -1817,7 +1823,7 @@ blockquote cite:before {
   font-weight: normal;
 }
 .full-width-header .rs-header .expand-btn-inner ul li > a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .rs-header .expand-btn-inner ul li:last-child {
   margin-right: 0;
@@ -1836,7 +1842,7 @@ blockquote cite:before {
   height: 5px;
   width: 5px;
   display: block;
-  background: #03c323;
+  background: #2d8feb;
   border-radius: 50%;
   transition: none;
   list-style: none;
@@ -1850,7 +1856,7 @@ blockquote cite:before {
 .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot6,
 .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot7,
 .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot8 {
-  background: #03c323;
+  background: #2d8feb;
 }
 .full-width-header .rs-header.header-transparent {
   position: absolute;
@@ -1863,7 +1869,7 @@ blockquote cite:before {
   position: static;
 }
 .full-width-header .rs-header.style2 .topbar-area {
-  background-color: #03c323;
+  background-color: #2d8feb;
 }
 .full-width-header .rs-header.style2 .topbar-area.style1 .topbar-contact li a:hover {
   color: #fff;
@@ -1876,18 +1882,18 @@ blockquote cite:before {
   border: none;
 }
 .full-width-header .rs-header.style2 .menu-area .main-menu .rs-menu ul.sub-menu li a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .rs-header.style2 .menu-area .main-menu .rs-menu ul li a:hover,
 .full-width-header .rs-header.style2 .menu-area .main-menu .rs-menu ul li.active a,
 .full-width-header .rs-header.style2 .menu-area .main-menu .rs-menu ul li.current-menu-item > a {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .rs-header.style2 .expand-btn-inner ul li > a {
   color: #0a0a0a;
 }
 .full-width-header .rs-header.style2 .expand-btn-inner ul li > a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .rs-header.style2 .expand-btn-inner ul li:last-child {
   margin-right: 0;
@@ -1906,18 +1912,18 @@ blockquote cite:before {
   line-height: unset;
 }
 .full-width-header .rs-header.style2.header-home4-style .menu-area .main-menu .rs-menu ul.sub-menu li a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .rs-header.style2.header-home4-style .menu-area .main-menu .rs-menu ul li a:hover,
 .full-width-header .rs-header.style2.header-home4-style .menu-area .main-menu .rs-menu ul li.active a,
 .full-width-header .rs-header.style2.header-home4-style .menu-area .main-menu .rs-menu ul li.current-menu-item > a {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .rs-header.style2.header-home4-style .expand-btn-inner ul li > a {
   color: #0a0a0a;
 }
 .full-width-header .rs-header.style2.header-home4-style .expand-btn-inner ul li > a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .rs-header.style2.header-home4-style .expand-btn-inner ul li:last-child {
   margin-right: 0;
@@ -2116,7 +2122,7 @@ blockquote cite:before {
   float: right;
 }
 .full-width-header .mobile-menu .rs-menu-toggle.primary {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .mobile-menu .rs-menu-toggle.secondary {
   color: #191821;
@@ -2187,7 +2193,7 @@ blockquote cite:before {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 .full-width-header .right_menu_togle .close-btn:hover .nav-close .line span {
-  background: #03c323;
+  background: #2d8feb;
 }
 .full-width-header .right_menu_togle .canvas-logo {
   padding-left: 0;
@@ -2212,7 +2218,7 @@ blockquote cite:before {
 .full-width-header .right_menu_togle .canvas-contact .address-area .address-list .info-icon i:before {
   margin: 0 20px 0 0;
   font-size: 25px;
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .right_menu_togle .canvas-contact .address-area .address-list .info-content .title {
   font-size: 16px;
@@ -2232,7 +2238,7 @@ blockquote cite:before {
   color: #ffffff;
 }
 .full-width-header .right_menu_togle .canvas-contact .address-area .address-list .info-content em a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .full-width-header .right_menu_togle .canvas-contact .social {
   margin: 40px 0 0;
@@ -2252,7 +2258,7 @@ blockquote cite:before {
   border-radius: 0px;
 }
 .full-width-header .right_menu_togle .canvas-contact .social li a i:hover {
-  background: #03c323;
+  background: #2d8feb;
   color: #ffffff;
 }
 .full-width-header .right_menu_togle .canvas-contact .social li:last-child {
@@ -2342,7 +2348,7 @@ blockquote cite:before {
 }
 .full-width-header .mobile-navbar-menu .nav-menu li.active-menu a,
 .full-width-header .mobile-navbar-menu .nav-menu li a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 body.modal-open {
   padding: 0 !important;
@@ -2484,7 +2490,7 @@ body .search-modal .close:hover {
   left: 2px;
   z-index: 1;
   padding: 50px 30px 30px 30px;
-  background-color: #03c323;
+  background-color: #2d8feb;
   border-radius: 0px 0px 0px 15px;
 }
 .rs-about.style1 .about-img .working-experiance .count-year .sub-text {
@@ -2780,7 +2786,7 @@ body .search-modal .close:hover {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
   z-index: -1;
-  background: #03c323;
+  background: #2d8feb;
   width: 65px;
   margin: 0 auto;
 }
@@ -2883,7 +2889,7 @@ body .search-modal .close:hover {
   z-index: 10;
 }
 .rs-banner.main-home .content-wrap .border-line {
-  background-color: #03c323;
+  background-color: #2d8feb;
   color: #ffffff;
   width: 70px;
   height: 8px;
@@ -3143,7 +3149,7 @@ body .search-modal .close:hover {
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 12px;
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-slider.slider3 .content-part .sl-title {
   font-size: 80px;
@@ -3194,7 +3200,7 @@ body .search-modal .close:hover {
 .rs-slider .nivo-directionNav > a.nivo-prevNav,
 .rs-slider .nivo-directionNav > a.nivo-nextNav {
   left: 5px;
-  background: #03c323;
+  background: #2d8feb;
 }
 .rs-slider .nivo-directionNav > a.nivo-prevNav {
   top: 44.4%;
@@ -3217,7 +3223,7 @@ body .search-modal .close:hover {
   -webkit-transform: translateY(-50%) translateX(-50%);
   transform: translateY(-50%) translateX(-50%);
   transition: all 0.3s ease;
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-slider .nivo-directionNav > a:hover {
   opacity: 95;
@@ -3242,8 +3248,8 @@ body .search-modal .close:hover {
   transition: .4s ease all;
 }
 .rs-slider .nivo-controlNav .nivo-control.active {
-  background: #03c323;
-  border-color: #03c323;
+  background: #2d8feb;
+  border-color: #2d8feb;
 }
 .rs-slider.rs-slider-style3.slider3 .content-part .sl-subtitle {
   font-size: 18px;
@@ -3379,7 +3385,7 @@ body .search-modal .close:hover {
     10. Video Section CSS
 ---------------------------------------*/
 .rs-videos .animate-border .popup-border {
-  background: #03c323;
+  background: #2d8feb;
   width: 80px;
   height: 80px;
   line-height: 80px;
@@ -3398,7 +3404,7 @@ body .search-modal .close:hover {
 }
 .rs-videos .animate-border .popup-border:before {
   content: "";
-  border: 2px solid #03c323;
+  border: 2px solid #2d8feb;
   position: absolute;
   z-index: 0;
   left: 50%;
@@ -3414,7 +3420,7 @@ body .search-modal .close:hover {
 }
 .rs-videos .animate-border .popup-border:after {
   content: "";
-  border: 2px solid #03c323;
+  border: 2px solid #2d8feb;
   position: absolute;
   z-index: 0;
   left: 50%;
@@ -3484,7 +3490,7 @@ body .search-modal .close:hover {
   line-height: 70px;
   border-radius: 100%;
   text-align: center;
-  background: #03c323;
+  background: #2d8feb;
 }
 .rs-videos.address-item .address-icon i {
   text-align: center;
@@ -3511,7 +3517,7 @@ body .search-modal .close:hover {
   height: 70px;
   border-radius: 50%;
   animation: pulse-border 1500ms ease-out infinite;
-  background: #03c323;
+  background: #2d8feb;
 }
 .rs-videos.faq {
   position: relative;
@@ -3606,7 +3612,7 @@ body .search-modal .close:hover {
 .rs-skillbar.style1 .cl-skill-bar .skillbar .skillbar-bar {
   height: 7px;
   line-height: 7px;
-  background-image: linear-gradient(180deg, #03c323 0%, #9d0c0c 100%);
+  background-image: linear-gradient(180deg, #2d8feb 0%, #9d0c0c 100%);
   margin-bottom: 0;
   overflow: visible !important;
   background-size: 1rem 1rem;
@@ -3632,7 +3638,7 @@ body .search-modal .close:hover {
 }
 .rs-skillbar.style1.team-single .cl-skill-bar .skillbar {
   background: #fff;
-  border: 1px solid #03c323;
+  border: 1px solid #2d8feb;
   height: 9px;
   border-radius: 0;
   overflow: visible;
@@ -3640,7 +3646,7 @@ body .search-modal .close:hover {
   margin: 10px 0 20px;
 }
 .rs-skillbar.style1.team-single .cl-skill-bar .skillbar .skillbar-bar {
-  background: #03c323;
+  background: #2d8feb;
   height: 5px;
 }
 .rs-skillbar.style1.team-single .cl-skill-bar .skillbar .skill-bar-percent {
@@ -3681,7 +3687,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-services.main-home .services-item .services-text .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-services.main-home .services-item .services-text .services-txt {
   color: #F5F5F5;
@@ -3694,7 +3700,7 @@ body .search-modal .close:hover {
   color: #0a0a0a;
 }
 .rs-services.main-home.services-style1 .services-item .services-text .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-services.main-home.services-style1 .services-item .services-text .services-txt {
   color: #454545;
@@ -3752,7 +3758,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-services.chooseus-style .services-item .services-text .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-services.chooseus-style .services-item .services-text .services-txt {
   margin: 0;
@@ -3784,7 +3790,7 @@ body .search-modal .close:hover {
   color: #0a0a0a;
 }
 .rs-services.home-style2 .services-item .services-text .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-services.home-style2 .services-item .services-text .services-txt {
   margin: 0;
@@ -3815,7 +3821,7 @@ body .search-modal .close:hover {
   color: #0a0a0a;
 }
 .rs-services.style2 .service-wrap .content-part .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-services.style2 .service-wrap:hover .image-part img {
   transform: scale(1.1);
@@ -3851,7 +3857,7 @@ body .search-modal .close:hover {
   color: #0a0a0a;
 }
 .rs-services.style3 .services-item .services-content .services-title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-services.style3 .services-item .services-content .services-txt {
   margin: 0;
@@ -3968,7 +3974,7 @@ body .search-modal .close:hover {
   color: #0a0a0a;
 }
 .rs-services.style5 .flip-box-inner .flip-box-wrap .front-part .front-content-part .front-title-part .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-services.style5 .flip-box-inner .flip-box-wrap .front-part .front-content-part .front-desc-part p {
   color: #444;
@@ -4202,7 +4208,7 @@ body .search-modal .close:hover {
   color: #101010;
 }
 .rs-services.style8 .flip-box-inner .flip-box-wrap .front-part .front-content-part .front-title-part .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-services.style8 .flip-box-inner .flip-box-wrap .front-part .front-content-part .front-desc-part p {
   font-size: 15px;
@@ -4412,7 +4418,7 @@ body .search-modal .close:hover {
   border: 0;
   width: 65px;
   height: 5px;
-  background: #03c323;
+  background: #2d8feb;
   z-index: 1;
   margin-left: 0;
   left: 0;
@@ -4428,7 +4434,7 @@ body .search-modal .close:hover {
   padding: 15px 30px 15px 30px;
   font-size: 17px;
   font-weight: 600;
-  background-color: #03c323;
+  background-color: #2d8feb;
   color: #ffffff;
   margin: 0 -4px;
 }
@@ -4483,7 +4489,7 @@ body .search-modal .close:hover {
 }
 .rs-services-single .widget-item li a:hover i,
 .rs-services-single .widget-item li a:hover span {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-services-single .widget-item li:first-child {
   border-top: none;
@@ -4539,7 +4545,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-services-single .call-us .contact-widget .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 /* ------------------------------------
     14. Faq Section CSS
@@ -4586,7 +4592,7 @@ body .search-modal .close:hover {
   text-align: center;
   font-size: 12px;
   color: #ffffff;
-  background: #03c323;
+  background: #2d8feb;
   width: 35px;
   height: 35px;
   line-height: 35px;
@@ -4638,7 +4644,7 @@ body .search-modal .close:hover {
 .rs-counter.style1 .counter-border-top {
   border-style: solid;
   border-width: 4px 0px 0px 0px;
-  border-color: #03c32308;
+  border-color: #2d8feb08;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   margin-top: 80px;
   margin-bottom: 0px;
@@ -4679,7 +4685,7 @@ body .search-modal .close:hover {
   border: 0;
   width: 65px;
   height: 5px;
-  background: #03c323;
+  background: #2d8feb;
   z-index: 1;
   margin-left: 0;
   left: 0;
@@ -4731,7 +4737,7 @@ body .search-modal .close:hover {
   top: 0;
   right: -50px;
   width: 50px;
-  background: #03c323;
+  background: #2d8feb;
   padding: 12px 0 0;
   text-align: center;
   opacity: 0;
@@ -4755,7 +4761,7 @@ body .search-modal .close:hover {
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 50px solid #03c323;
+  border-top: 50px solid #2d8feb;
   border-right: 50px solid transparent;
   bottom: 0;
   left: 0;
@@ -4781,7 +4787,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-team.style1 .team-wrap .team-content .team-name a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-team.style1 .team-wrap .team-content .team-title {
   font-size: 13px;
@@ -4808,7 +4814,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-team.style1.team-style1 .team-wrap .team-content .team-name a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-team.style1.team-style1 .team-wrap:hover .image-wrap a img {
   opacity: .7;
@@ -4891,7 +4897,7 @@ body .search-modal .close:hover {
   bottom: 0;
   width: 100%;
   height: 3px;
-  background: #03c323;
+  background: #2d8feb;
   transition: .4s all ease;
   left: 0;
 }
@@ -4906,7 +4912,7 @@ body .search-modal .close:hover {
   bottom: 0;
   height: 140px;
   color: #fff;
-  background: #03c323;
+  background: #2d8feb;
 }
 .rs-team.style2 .team-item:hover .team-content .team-info .name a {
   color: #ffffff;
@@ -4946,7 +4952,7 @@ body .search-modal .close:hover {
   color: #0a0a0a;
 }
 .rs-team.style3 .team-item .team-content .team-info .name a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-team.style3 .team-item .team-content .team-info .post {
   font-size: 13px;
@@ -4974,7 +4980,7 @@ body .search-modal .close:hover {
   color: #4a4a4a;
 }
 .rs-team.style3 .team-item .team-content .social-icon li a i:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-team.style3 .team-item .team-content .social-icon li:last-child {
   margin-right: 0;
@@ -5079,7 +5085,7 @@ body .search-modal .close:hover {
   font-size: 15px;
   line-height: 26px;
   font-weight: 600;
-  color: #03c323;
+  color: #2d8feb;
   text-transform: uppercase;
   display: block;
 }
@@ -5110,7 +5116,7 @@ body .search-modal .close:hover {
   display: block;
 }
 .rs-team-Single .btm-info-team .con-info .ps-informations .personal-info li span i:before {
-  color: #03c323;
+  color: #2d8feb;
   margin-right: 18px;
   position: relative;
   top: 2px;
@@ -5122,7 +5128,7 @@ body .search-modal .close:hover {
   color: #555;
 }
 .rs-team-Single .btm-info-team .con-info .ps-informations .personal-info li a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-team-Single .btm-info-team .con-info .ps-informations .social-info {
   margin-top: 15px;
@@ -5135,7 +5141,7 @@ body .search-modal .close:hover {
   color: #555;
 }
 .rs-team-Single .btm-info-team .con-info .ps-informations .social-info li a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-team-Single .btm-info-team .con-info .ps-informations .social-info li:last-child {
   margin-right: 0;
@@ -5190,7 +5196,7 @@ body .search-modal .close:hover {
   margin: -13px 0px 0px 0px;
   display: inline-block;
   border-radius: 50px 50px 50px 50px;
-  background: #03c323;
+  background: #2d8feb;
 }
 .rs-process.style1 .process-effects-layer .rs-addon-number .number-part .number-text .number-area .number-prefix {
   font-size: 18px;
@@ -5326,7 +5332,7 @@ body .search-modal .close:hover {
 .rs-pricing.style1 .pricing-table.white-bg .pricing-table-price .pricing-table-bags .pricing-currency,
 .rs-pricing.style1 .pricing-table.white-bg .pricing-table-price .pricing-table-bags .table-period,
 .rs-pricing.style1 .pricing-table.white-bg .pricing-table-price .pricing-table-bags .table-price-text {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-pricing.style2 .pricing-wrap .head-part {
   padding: 60px 60px 37px;
@@ -5373,7 +5379,7 @@ body .search-modal .close:hover {
   font-weight: 800;
 }
 .rs-pricing.style2 .pricing-wrap .body-part ul li.no i {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-pricing.style2 .pricing-wrap .body-part ul li:last-child {
   margin-bottom: 0;
@@ -5449,7 +5455,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-project.style1 .project-item .project-content .project-inner .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-project.style1 .project-item .project-content .project-inner .category {
   font-size: 15px;
@@ -5468,7 +5474,7 @@ body .search-modal .close:hover {
   line-height: 50px;
   border-radius: 50px;
   color: #ffffff;
-  background: #03c323;
+  background: #2d8feb;
   font-size: 18px;
   display: block;
 }
@@ -5526,7 +5532,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-project.style1.red-overly-bg .project-item .project-content .project-inner .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-project.style1.red-overly-bg .project-item .project-content .project-inner .category {
   margin-bottom: 0px;
@@ -5535,7 +5541,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-project.style1.red-overly-bg .project-item .project-content:before {
-  background-color: #03c32382;
+  background-color: #2d8feb82;
 }
 .rs-project.style1.red-overly-bg .project-item:hover .project-img img {
   transform: scale(1.2);
@@ -5580,7 +5586,7 @@ body .search-modal .close:hover {
   line-height: 50px;
   border-radius: 50px;
   color: #ffffff;
-  background: #03c323;
+  background: #2d8feb;
   font-size: 18px;
   display: block;
 }
@@ -5621,7 +5627,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-project.style2 .project-item .project-content .project-inner .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-project.style2 .project-item:before {
   background-color: #1A1111E0;
@@ -5703,7 +5709,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-project.style3 .project-item .project-content .portfolio-inner .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-project.style3 .project-item .project-content:before {
   content: '';
@@ -5764,7 +5770,7 @@ body .search-modal .close:hover {
   color: #454545;
 }
 .rs-project.style4 .project-item .project-content .category a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-project.style4 .project-item .project-content .title {
   font-size: 20px;
@@ -5776,7 +5782,7 @@ body .search-modal .close:hover {
   color: #0a0a0a;
 }
 .rs-project.style4 .project-item .project-content .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-project.style4 .project-item:hover .project-content {
   opacity: 1;
@@ -5815,7 +5821,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-project.style5 .project-item .project-content .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-project.style5 .project-item .project-content .category {
   font-size: 15px;
@@ -5827,7 +5833,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-project.style5 .project-item .project-content .category a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-project.style5 .project-item .project-content:before {
   content: '';
@@ -5839,7 +5845,7 @@ body .search-modal .close:hover {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-  background-color: #03c3236E;
+  background-color: #2d8feb6E;
   transition: all .4s;
   transform: scale(1.2);
   transition: .6s;
@@ -5871,7 +5877,7 @@ body .search-modal .close:hover {
   line-height: 50px;
   border-radius: 50px;
   color: #ffffff;
-  background: #03c323;
+  background: #2d8feb;
   font-size: 18px;
   display: block;
   position: absolute;
@@ -5905,7 +5911,7 @@ body .search-modal .close:hover {
   color: #0a0a0a;
 }
 .rs-project.style6 .project-item .project-content .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-project.style6 .project-item .project-content .category {
   display: block;
@@ -5971,7 +5977,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-project.style7 .project-item .project-content .project-inner .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-project.style7 .project-item .project-content .project-inner .category a {
   color: #CCCCCC;
@@ -5991,7 +5997,7 @@ body .search-modal .close:hover {
   width: 50px;
   height: 50px;
   border-radius: 50px;
-  background: #03c323;
+  background: #2d8feb;
   line-height: 55px;
   color: #fff;
   text-align: center;
@@ -6138,7 +6144,7 @@ body .search-modal .close:hover {
   color: #0a0a0a;
 }
 .rs-blog.blog-main-home .blog-item .blog-content .blog-title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-blog.blog-main-home .blog-item .blog-content .desc {
   margin-bottom: 28px;
@@ -6168,7 +6174,7 @@ body .search-modal .close:hover {
   display: inline-block;
 }
 .rs-blog.style2 .blog-item .image-wrap .post-categories li a {
-  background: #03c323;
+  background: #2d8feb;
   color: #ffffff;
   transition: 0.4s;
   font-size: 14px;
@@ -6196,7 +6202,7 @@ body .search-modal .close:hover {
   margin-right: 5px;
   font-size: 14px;
   font-weight: 400;
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-blog.style2 .blog-item .blog-content .blog-meta .admin:after {
   content: "";
@@ -6216,7 +6222,7 @@ body .search-modal .close:hover {
   margin-right: 5px;
   font-size: 14px;
   font-weight: 400;
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-blog.style2 .blog-item .blog-content .blog-title {
   font-size: 18px;
@@ -6228,7 +6234,7 @@ body .search-modal .close:hover {
   color: #0a0a0a;
 }
 .rs-blog.style2 .blog-item .blog-content .blog-title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-blog.style2 .blog-item .blog-content p {
   margin: 0;
@@ -6375,7 +6381,7 @@ body .search-modal .close:hover {
   display: inline-block;
 }
 .rs-inner-blog .blog-item .blog-img .post-categories li a {
-  background: #03c323;
+  background: #2d8feb;
   color: #ffffff;
   transition: 0.4s;
   font-size: 14px;
@@ -6384,7 +6390,7 @@ body .search-modal .close:hover {
   display: block;
 }
 .rs-inner-blog .blog-item .blog-img .post-categories li a:hover {
-  background: #03c323;
+  background: #2d8feb;
 }
 .rs-inner-blog .blog-item .blog-content {
   padding: 25px 15px 25px;
@@ -6400,7 +6406,7 @@ body .search-modal .close:hover {
   color: #0a0a0a;
 }
 .rs-inner-blog .blog-item .blog-content .blog-title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-inner-blog .blog-item .blog-content .blog-meta .btm-cate {
   overflow: hidden;
@@ -6420,7 +6426,7 @@ body .search-modal .close:hover {
   color: #555;
 }
 .rs-inner-blog .blog-item .blog-content .blog-meta .btm-cate li .blog-date i {
-  color: #03c323;
+  color: #2d8feb;
   margin-right: 3px;
   font-size: 14px;
   font-weight: 600;
@@ -6433,7 +6439,7 @@ body .search-modal .close:hover {
   color: #555;
 }
 .rs-inner-blog .blog-item .blog-content .blog-meta .btm-cate li .author i {
-  color: #03c323;
+  color: #2d8feb;
   margin-right: 3px;
   font-size: 14px;
   font-weight: 600;
@@ -6464,7 +6470,7 @@ body .search-modal .close:hover {
   border: 0;
   width: 50px;
   height: 2px;
-  background: #03c323;
+  background: #2d8feb;
   z-index: 1;
   margin-left: 0;
   bottom: 0;
@@ -6505,7 +6511,7 @@ body .search-modal .close:hover {
   font-size: 18px;
 }
 .rs-inner-blog .widget-area .search-widget .search-wrap button:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-inner-blog .widget-area .recent-posts {
   background: #fff;
@@ -6538,7 +6544,7 @@ body .search-modal .close:hover {
   margin-bottom: 5px;
 }
 .rs-inner-blog .widget-area .recent-posts .recent-post-widget .post-desc a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-inner-blog .widget-area .recent-posts .recent-post-widget .post-desc .date-post {
   display: block;
@@ -6551,7 +6557,7 @@ body .search-modal .close:hover {
 }
 .rs-inner-blog .widget-area .recent-posts .recent-post-widget .post-desc .date-post i:before {
   font-size: 12px;
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-inner-blog .widget-area .categories {
   background: #fff;
@@ -6569,7 +6575,7 @@ body .search-modal .close:hover {
   color: #0a0a0a;
 }
 .rs-inner-blog .widget-area .categories li a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-inner-blog .widget-area .categories li:first-child {
   border-top: none;
@@ -6587,7 +6593,7 @@ body .search-modal .close:hover {
 .rs-inner-blog .blog-details .blog-full .single-post-meta li .p-date i {
   font-size: 13px;
   margin-right: 3px;
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-inner-blog .blog-details .blog-full .single-post-meta li .p-date i:before {
   margin-right: 5px;
@@ -6600,7 +6606,7 @@ body .search-modal .close:hover {
   font-size: 14px;
 }
 .rs-inner-blog .blog-details .blog-full .single-post-meta .Post-cate .tag-line i {
-  color: #03c323;
+  color: #2d8feb;
   margin-right: 3px;
 }
 .rs-inner-blog .blog-details .blog-full .single-post-meta .Post-cate .tag-line i:before {
@@ -6612,7 +6618,7 @@ body .search-modal .close:hover {
   font-size: 14px;
 }
 .rs-inner-blog .blog-details .blog-full .single-post-meta .Post-cate .tag-line a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-inner-blog .blog-details .blog-full .single-post-meta .post-comment {
   color: #555;
@@ -7173,7 +7179,7 @@ body .search-modal .close:hover {
   font-size: 30px;
   color: #ffffff;
   font-weight: 400;
-  background: #03c323;
+  background: #2d8feb;
   border: none ;
   padding: 8px 10px 8px;
   height: 45px;
@@ -7186,7 +7192,7 @@ body .search-modal .close:hover {
   color: #ffffff;
   font-weight: 700;
   line-height: 40px;
-  background: #03c323;
+  background: #2d8feb;
   width: 40px;
   height: 40px;
   text-align: center;
@@ -7207,12 +7213,12 @@ body .search-modal .close:hover {
   color: #0a0a0a;
 }
 .rs-shop-part .product-list .content-desc .loop-product-title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-shop-part .product-list .content-desc .price {
   font-size: 16px;
   line-height: 27px;
-  color: #03c323;
+  color: #2d8feb;
   font-weight: 600;
   margin: 0;
 }
@@ -7240,7 +7246,7 @@ body .search-modal .close:hover {
   margin-bottom: 12px;
 }
 .rs-single-shop .single-price-info .single-price {
-  color: #03c323;
+  color: #2d8feb;
   font-weight: 600;
 }
 .rs-single-shop .single-price-info .some-text {
@@ -7272,7 +7278,7 @@ body .search-modal .close:hover {
   color: #454545;
 }
 .rs-single-shop .single-price-info p.category a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-single-shop .single-price-info .tag {
   margin: 0;
@@ -7303,7 +7309,7 @@ body .search-modal .close:hover {
 }
 .rs-single-shop .tab-area ul.nav-tabs li .nav-link:hover,
 .rs-single-shop .tab-area ul.nav-tabs li .nav-link.active {
-  background: #03c323;
+  background: #2d8feb;
   color: #ffffff;
 }
 .rs-single-shop .tab-area ul.nav-tabs li:last-child {
@@ -7359,7 +7365,7 @@ body .search-modal .close:hover {
   display: inline;
 }
 .rs-single-shop .tab-area .tab-content .tab-pane .reviews-grid .comment-form .ratings ul li i {
-  color: #03c323;
+  color: #2d8feb;
   font-weight: normal;
 }
 /*----------------------------------------
@@ -7419,7 +7425,7 @@ body .search-modal .close:hover {
   font-weight: 700;
 }
 .rs-cart .cart-wrap table.cart-table .product-name a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-cart .cart-wrap table.cart-table .product-price {
   font-weight: 700;
@@ -7544,7 +7550,7 @@ body .search-modal .close:hover {
 }
 .rs-checkout .coupon-toggle .accordion .card {
   border: unset;
-  border-top: 3px solid #03c323;
+  border-top: 3px solid #2d8feb;
   border-radius: 0;
 }
 .rs-checkout .coupon-toggle .accordion .card .card-header {
@@ -7561,13 +7567,13 @@ body .search-modal .close:hover {
 .rs-checkout .coupon-toggle .accordion .card .card-header .card-title button {
   background: unset;
   border: none;
-  color: #03c323;
+  color: #2d8feb;
   transition: all 0.3s ease;
   outline: none;
   cursor: pointer;
 }
 .rs-checkout .coupon-toggle .accordion .card .card-header .card-title button:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-checkout .coupon-toggle .accordion .card .card-body {
   border: 1px solid #d3ced2;
@@ -7708,7 +7714,7 @@ body .search-modal .close:hover {
   color: #454545;
 }
 .rs-my-account .rs-login .form-group label span {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-my-account .rs-login .form-group input {
   width: 100%;
@@ -7722,7 +7728,7 @@ body .search-modal .close:hover {
   font-size: 15px;
   line-height: 26px;
   font-weight: 400;
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-my-account .rs-login p {
   font-size: 15px;
@@ -7735,7 +7741,7 @@ body .search-modal .close:hover {
   font-size: 15px;
   line-height: 26px;
   font-weight: 400;
-  color: #03c323;
+  color: #2d8feb;
 }
 /* ------------------------------------
     30. Contact Section CSS
@@ -7815,13 +7821,13 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-contact.main-home .contact-icons-style .contact-item .content-text .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-contact.main-home .contact-icons-style .contact-item .content-text a {
   color: #C5C2C2;
 }
 .rs-contact.main-home .contact-icons-style .contact-item .content-text a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-contact.main-home .contact-icons-style .contact-item .content-text .services-txt {
   margin: 0;
@@ -7834,13 +7840,13 @@ body .search-modal .close:hover {
   color: #0a0a0a;
 }
 .rs-contact.main-home .contact-icons-style.box-address .contact-item .content-text .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-contact.main-home .contact-icons-style.box-address .contact-item .content-text a {
   color: #444444;
 }
 .rs-contact.main-home .contact-icons-style.box-address .contact-item .content-text a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-contact.main-home .contact-icons-style.box-address .contact-item .content-text .services-txt {
   color: #444444;
@@ -7912,14 +7918,14 @@ body .search-modal .close:hover {
   color: #14171C;
 }
 .rs-contact.main-home.office-modify1 .contact-box .content-text .title a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-contact.main-home.office-modify1 .contact-box .content-text a {
   color: #444444;
   font-weight: 500;
 }
 .rs-contact.main-home.office-modify1 .contact-box .content-text a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-contact.main-home.office-modify1 .contact-box .content-text .services-txt {
   margin: 0;
@@ -7988,7 +7994,7 @@ body .search-modal .close:hover {
   font-weight: 500;
 }
 .rs-contact.contact-style2 .contact-address .address-item .address-text a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-contact.contact-style2 .contact-map {
   overflow: hidden;
@@ -8057,7 +8063,7 @@ body .search-modal .close:hover {
   color: #333333;
 }
 .rs-contact.faq-style .contact-item .content-text a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-contact.faq-style .contact-item .content-text .services-txt {
   color: #333333;
@@ -8181,7 +8187,7 @@ body .search-modal .close:hover {
   content: "";
   width: 50px;
   height: 4px;
-  background: #03c323;
+  background: #2d8feb;
   position: absolute;
   bottom: -4px;
   right: 0;
@@ -8200,7 +8206,7 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-footer.style1 .footer-top .site-map li a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-footer.style1 .footer-top .site-map li:last-child {
   margin-bottom: 0;
@@ -8224,7 +8230,7 @@ body .search-modal .close:hover {
 }
 .rs-footer.style1 .footer-top .footer-social li a i:hover {
   color: #ffffff;
-  background: #03c323;
+  background: #2d8feb;
 }
 .rs-footer.style1 .footer-top .footer-social li:last-child {
   margin: 0;
@@ -8240,10 +8246,10 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-footer.style1 .footer-top .address-widget li .desc a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-footer.style1 .footer-top .address-widget li i {
-  color: #03c323;
+  color: #2d8feb;
   position: absolute;
   left: 0px;
 }
@@ -8272,7 +8278,7 @@ body .search-modal .close:hover {
   border: none;
   padding: 17px 30px;
   font-size: 14px;
-  background: #03c323;
+  background: #2d8feb;
   color: #ffffff;
   border-radius: 0px;
   margin-top: 15px;
@@ -8324,14 +8330,14 @@ body .search-modal .close:hover {
   color: #ffffff;
 }
 .rs-footer.style1 .footer-bottom .copy-right-menu li a:hover {
-  color: #03c323;
+  color: #2d8feb;
 }
 .rs-footer.style1 .footer-bottom .copy-right-menu li:before {
   display: block;
   content: "";
   position: absolute;
   font-size: 18px;
-  background: #03c323;
+  background: #2d8feb;
   left: 0;
   top: 50%;
   width: 6px;
@@ -8553,7 +8559,7 @@ body .search-modal .close:hover {
   color: #fff;
   line-height: 36px;
   transition: all 0.3s ease 0s;
-  background: #03c323;
+  background: #2d8feb;
   margin-left: 2px;
   box-shadow: 0 0 2px #54595F;
 }
